@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/yanyingwang/baidu_map.git
+  revision: 67b5fd7e93b63385555688c22d1ffa3b70dbaaae
+  specs:
+    baidu_map (0.2.1)
+      eat (~> 0.1.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,8 +69,6 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    baidu_map (0.2.1)
-      eat (~> 0.1.8)
     bindex (0.8.1)
     bootsnap (1.7.5)
       msgpack (~> 1.0)
@@ -207,7 +212,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  baidu_map (~> 0.2.1)
+  baidu_map!
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
