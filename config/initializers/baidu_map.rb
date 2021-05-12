@@ -1,4 +1,6 @@
 BaiduMap.setup do
+  raise "Missing BAIDU_MAP_AK environment variable!" unless ENV['BAIDU_MAP_AK'].present?
+
   @ak = ENV['BAIDU_MAP_AK']
 end
 
